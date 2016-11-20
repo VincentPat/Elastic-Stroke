@@ -1,6 +1,8 @@
 html,
 body {
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -9,14 +11,14 @@ body {
     font: 16em/1 Arial;
 }
 
-.text--line {
+#s-text text {
     font-size: .5em;
 }
 
 svg {
-    position: absolute;
     width: 100%;
     height: 100%;
+    display: block;
 }
 
 .text-copy {
